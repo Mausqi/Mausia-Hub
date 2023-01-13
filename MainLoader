@@ -1,0 +1,6 @@
+local TBZFarm = false-- enable for tower blitz script [put in autoexecute]
+if game.PlaceId == 4739557376 or game.PlaceId == 5527929546 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Mausqi/Mausia-Hub/main/TBZ"))()
+elseif game.PlaceId == 1215581239 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Mausqi/Mausia-Hub/main/Doomspire"))()
+end
